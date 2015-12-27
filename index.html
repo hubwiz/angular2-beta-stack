@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>test</title>
+    <script type="text/javascript" src="dist/angular2.beta.stack.min.js"></script>
+</head>
+<body>
+	<ez-app></ez-app>
+    <script type="text/typescript">
+    	import {Component} from "angular2/core";
+        import {bootstrap} from "angular2/platform/browser";
+                
+        @Component({
+			selector:"ez-app",
+        	template : `<h1>Hello,Angular2</h1>`
+        })
+        class EzApp{}
+        
+        bootstrap(EzApp);
+    </script>
+</body>
+</html>
