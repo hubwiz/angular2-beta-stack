@@ -37,15 +37,15 @@
 	
 ## 构造
 
-1. 安装gulp
+1.安装gulp
 	
 	~$ npm install -g gulp
 	
-2. 安装gulp-concat和gulp-uglify
+2.安装gulp-concat和gulp-uglify
 
 	~$ npm install gulp-concat gulp-uglify
 	
-3. 执行gulp	
+3.执行gulp，生成dist/angular2-beta-stack.min.js
 
 	~$ cd angular2-beta-stack
 	~/angular2/beta-stack$ gulp
